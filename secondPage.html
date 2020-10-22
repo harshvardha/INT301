@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+<title>Page Title</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">Movie Rating System</a>
+      </div>
+      <div style="display: flex; justify-content: space-evenly; padding:5%;margin:5%">
+        <img src="mission.jpg" alt="Mission mangal" width="220px" height="300px">
+        <div>
+          <div>
+            <p><strong>Movie Name : </strong> Mission mangal</p>
+            <p><strong>Release year : </strong> 2019</p>
+            <p><strong>Ratings : </strong> 7.3/10</p>
+          </div>
+          <div>
+            <strong>If you want to rate : </strong>
+			<form action="secondPage.php" method="post">
+			<input type="text" name="rating"/>
+			<input type="submit" name="submitbutton"/>
+			</form>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+        <button style="padding:20px;margin: 10px;background:#f2f2f2; border-radius: 8px; border: 0px;">Previous</button>
+        <button style="padding:20px;margin: 10px;background:#f2f2f2; border-radius: 8px; border: 0px;">Next</button>
+      </div>
+  </body>
+  </html>
